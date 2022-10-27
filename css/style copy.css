@@ -1,0 +1,372 @@
+/* Mise en forme des "balises" */
+body{
+    background-color: rgb(187, 184, 184);
+    padding: 3%;
+    
+    background-image: url(../images/fond/paper-1332019_1920.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-family: 'Balsamiq Sans', cursive;  
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/fond/texture-3319946_1920.jpg);
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    height: 10vh;
+    width: 100%;
+    color: white;   
+}
+
+.headerRight{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../images/fond/paper-1332019_1920.jpg); 
+    width: 25%;
+    border: solid black 5px;
+    border-radius: 50%;
+    margin-left: 5%;
+    
+}
+
+h1{
+    display: block;
+    margin: 0 0 0 3%;
+    height: 10%;
+}
+
+h2{
+    margin: 0 0% 0 15%;
+    width: 100%;
+    font-size: 1.75rem;
+}
+
+
+footer{
+    border: solid black 1px;
+    margin-top: 3%;
+    height: 7vh;
+    width: 100%;
+    border-radius: 5px;
+    background-image: url(../images/fond/texture-3319946_1920.jpg);
+}
+
+/* Mise en forme des "classes" */
+
+.containerEntete{
+    display: grid;
+    grid-template-areas: 
+    "a a b";
+    column-gap: 1%;
+    margin-bottom: 3%;
+}
+
+.entreprise{
+    background-image: url(../images/fond/texture-3319946_1920.jpg);
+    grid-area: a;
+    padding: 1.7% 1% 2% 1%;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+    .entrepriseHaut{
+        display: flex;
+        justify-content: space-between;
+        /* color: white; */
+        background-color: rgba(200, 200, 200, 0.7);
+        padding: 1.7% 3% 2% 3%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+
+    }
+
+        .entrepriseHaut img{
+            width:9% ;
+            border: solid black 2px ;
+            border-radius: 5px;
+            background-color: black;
+        }
+
+        .entrepriseHautDiv{
+            margin-bottom: 2.5%;
+            font-size: 1.5rem;
+        }
+
+        .nomEntreprise{
+            font-weight: bold;
+            font-size: 1.7rem;
+            text-transform: uppercase;
+        }
+
+        .buttonDeconnexionDiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 15%;
+        }
+
+    .entrepriseBas{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .buttonDeconnexion{
+        background-image: url(../images/fond/texture-3319946_1920.jpg);
+        height: 35%;
+        width: 100%;
+        border: solid black 1px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        padding: 1% 10% 1% 10%;
+        margin-bottom: 3%;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: white;
+        font-family: 'Balsamiq Sans', cursive; 
+        cursor: pointer;
+    }
+
+.outil{
+    background-image: url(../images/fond/texture-3319946_1920.jpg);
+    grid-area: b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 3% 1% 2% 1%;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.containerOnglet{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.containerSousOnglet{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.containerContenu{
+    padding: 2% 1.5% 1% 1.5%;
+    border: solid black 1px;
+    border-top: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-height: 100vh;
+    background-color: rgba(95, 69, 58, 0.8);
+}
+
+.onglet{
+    border: solid 
+    rgb(226, 211, 172)
+     1px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 1% 2% 1% 2% ;
+    margin: 0 0.5% 0 0;
+    width: calc(100%/6);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:black;
+    font-size: 1.38rem; 
+    cursor: pointer;
+}
+
+.sousOnglet{
+    display: block;
+    border: solid rgb(124, 99, 80) 1px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 1% 2% 1% 2% ;
+    margin: 0 0.3% 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+.sousContenu{
+    border-top: none;
+    width: 98%;
+    background-color:rgb(226, 211, 172);
+    padding: 1.5% 1.5% 1.5% 1.5%;
+}
+
+
+.buttonNew{
+    /* background-image: url(../images/fond/metal-2069115_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgba(200, 200, 200, 0.7);
+    height: 35%;
+    border: solid black 1px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0.5% 1% 0.5% 1%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+    cursor: pointer; 
+}
+
+    /* Mise en forme pour JS */
+
+    .none{
+        display: none;
+    }
+
+    .contenu{
+        display: block;
+    }
+
+    .ongletSelect{
+        background-color:rgba(95, 69, 58, 0.8);
+        border: solid black 1px;
+        border-bottom: none;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        padding: 1% 2% 1% 2% ;
+        margin: 0 0.5% 0 0;
+        width: calc(100%/6);
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        text-shadow:black 10px 0 10px;
+        color: rgb(224, 224, 224);
+        font-size: 1.38rem;   
+    }
+
+    .sousOngletSelect{
+        display: block;
+        border: solid rgb(226, 211, 172) 1px;
+        border-bottom: solid rgb(226, 211, 172) 1px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        padding: 1% 2% 1% 2% ;
+        margin: 0 0.3% 0 0;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        color:black;
+        text-shadow:black 0px 0px 10px;
+        background-color:rgb(226, 211, 172);
+        
+    }
+
+    .buttonDiv{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buttonLeft{
+        width: 75%;
+    }
+
+    .buttonIntLeft{
+        height: 50%;
+        margin-right: 2%;
+    }
+
+    .buttonRight{
+        width: 2%;
+    }
+
+    .buttonRefresh{
+        width: 110%;
+        height: 50%;
+        padding: 1% 1% 1% 1%;
+    }
+
+    .iconRefresh{
+        width: 80%;
+    }
+
+/* mise en forme des "id" */
+
+/* Mise en forme des tableau "table" */
+
+table {
+    margin-top: 0.75%;
+    border: medium solid #000000;
+    border-collapse: collapse;
+    }
+
+th {
+    background-image: url(../images/fond/texture-3319946_1920.jpg);
+    color: white;
+    cursor: pointer;
+}    
+
+tr:nth-child( 2n+2){
+    background-color: rgb(226, 211, 172);
+    
+}
+
+tr:nth-child( 2n+1){
+    background-color: white;
+   
+}
+
+    
+tr:nth-child( 2n+2) td {
+    border-right: 0.5px solid white;
+    
+}
+
+.col18, .col19, .col20{
+    width: 2.5%;
+}
+
+tr:nth-child( 2n+1) td{
+ border-right: 0.5px solid rgb(226, 211, 172);
+
+}
+
+td {
+    width: min-content;
+}
+
+.iconEdit{
+    width: 100%;
+    margin: 0;
+}
+
+/* Mise en forme des "hover" */
+
+.onglet:hover{
+    background-color:rgba(0, 0, 0, 0.7) ;
+}
+
+.buttonDeconnexion:hover{
+    background-image: none;
+    background-color:rgba(0, 0, 0, 0.7) ;
+}
+
+.sousOnglet:hover{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    color: white;
+}
+
+.buttonNew:hover{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    color: white;
+}
+
+  
+  

@@ -1,0 +1,140 @@
+h3{
+    width: 90%;
+    background-image: url(../images/fond/texture-3319946_1920.jpg);
+    margin: 2% 3% 0 3%;
+    padding: 1% 0 1% 0;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Balsamiq Sans', cursive;
+    
+
+}
+
+form{
+    width: 86%;
+    background-image: url(../images/fond/paper-1332019_1920.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 0 3% 5% 3%;
+    padding: 4% 2% 2% 2%;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+
+label{
+    display: inline-block;
+    font-size: 1.3rem;
+    width: 35%;
+}
+
+.tier{
+    width: 31%;
+}
+
+input, select{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.3rem;
+    width: 50%;
+    background-color:rgba(240, 220, 154, 0.5) ;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+
+.div1Form{
+    background-color: rgba(200, 200, 200, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.div2Form{
+    background-color: rgba(200, 200, 200, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.adresseForm{
+    background-color: rgba(200, 200, 200, 0.5);
+    margin-bottom: 3%;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1%;
+    
+}
+    .adresseFormLigne1{
+        display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+
+    .adresseFormLigne2{
+        display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+
+    .adresseFormLigne3{
+        display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+
+.div4Form{
+    background-color: rgba(200, 200, 200, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.div5Form{
+    background-color: rgba(200, 200, 200, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.retour, .submit{
+    background-color: rgba(200, 200, 200, 0.5);
+    height: 35%;
+    border: solid black 1px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 0.5% 1% 0.5% 1%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+    cursor: pointer;
+}
+
+.divSubmit{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#retourClient:hover{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    color: white;
+}
+
+.submit:hover{
+    background-color:rgba(0, 0, 0, 0.6) ;
+    color: white;
+}

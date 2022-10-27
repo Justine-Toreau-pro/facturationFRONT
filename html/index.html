@@ -1,0 +1,2124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="headerRight">
+            
+                <img class="logo" src="../images/icones/business-color_scale_icon-icons.com_53435.png" alt="">
+            
+                <h1>NOM DU SITE</h1>
+            
+        </div>
+        <!-- <div > -->
+           <h2>Le site de facturation des micro-entreprises</h2>
+        <!-- </div> -->
+    </header>
+    <div class="containerEntete">
+        <div class="entreprise">
+            <div class="entrepriseHaut">
+                <img src="" alt="Logo de l'entreprise utilisatrice">
+                <div>
+                    <div class="entrepriseHautDiv nomEntreprise">
+                    Nom de l'entreprise utilisatrice
+                    </div>
+                    <div class="entrepriseHautDiv">
+                    13 rue de Goarem Glaz
+                    </div>
+                    <div class="entrepriseHautDiv">
+                    29 470 PLOUGASTEL-DAOULAS
+                    </div>
+                </div>
+                <div>
+                    <div class="entrepriseHautDiv">
+                    SIRET : 552 178 639 00132
+                    </div>
+                    <div class="entrepriseHautDiv">
+                    TVA : 0 123 456 789
+                    </div>
+                    <div class="entrepriseHautDiv">
+                    TEL : 06 45 62 01 05
+                    </div>
+
+                </div>
+                <div class="buttonDeconnexionDiv">
+                    <button class="buttonDeconnexion">deconnexion</button>
+                </div>
+            </div>
+            <div class="entrepriseBas">
+                <button class="buttonNew">modifier</button>
+                <button class="buttonNew">editer</button>
+                <button class="buttonNew">parametre</button>
+            </div>
+        </div>
+        <div class="outil">
+            <button class="buttonNew">calculatrice</button>
+            <button class="buttonNew">calcul tva</button>
+            <button class="buttonNew">convertisseur de devise</button>
+        </div>
+
+    </div>
+
+    <main>
+        <section class="containerOnglet">
+            <div class="onglet clientOnglet" id="clientOnglet">
+                client
+            </div>
+            <div class="onglet clientDocOnglet" id="clientDocOnglet">
+                doc client
+            </div>
+            <div class="onglet fornisseurOnglet" id="fornisseurOnglet">
+                fournisseur
+            </div>
+            <div class="onglet fournisseurDocOnglet" id="fournisseurDocOnglet">
+                doc fournisseur
+            </div>
+            <div class="onglet articleOnglet" id="articleOnglet">
+                article
+            </div>
+            <div class="onglet prospectOnglet" id="prospectOnglet">
+                prospect
+            </div>
+        </section>
+
+        <section class="containerContenu">
+
+            
+
+            <div class="none clientContenu" id="clientContenu">
+
+                <div id="myModal" class="none">
+                    <button id="retour"> retour</button>
+                    essai
+                 </div>
+
+                <div id="buttonDivClient" class="buttonDiv">
+                    <div class="buttonLeft">
+                        <button id="nouveauClient" class="buttonNew buttonIntLeft" > nouveau client</button>
+                        <button class="buttonNew buttonIntLeft">recherche</button>
+                        <button class="buttonNew buttonIntLeft">editer la liste</button>
+                    </div> 
+                    <div class="buttonRight">
+                        <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                    </div>
+                </div>
+
+                <table id="tableClient">
+                    <thead>
+                        <tr>
+                            <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CL00001</td>
+                            <td>22236njds</td>
+                            <td>SARL</td>
+                            <td>JTcréa</td>
+                            <td>13</td>
+                            <td>BIS</td>
+                            <td>rue</td>
+                            <td>de Goarem Glaz</td>
+                            <td>29470</td>
+                            <td>PLOUGASTEL-DAOULAS</td>
+                            <td>FRANCE</td>
+                            <td>0672569588</td>
+                            <td>prénom.nom@gmail.com</td>
+                            <td>jtc.jtc.com</td>
+                            <td>552 178 639 00132</td>
+                            <td>552 178 639</td>
+                            <td>0 123 456 789</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="none clientDocContenu" id="clientDocContenu">
+                <div class="containerSousOnglet">
+                    <div class="sousOnglet" id="devisClientSousOnglet">devis</div>
+                    <div class="sousOnglet" id="bdcClientSousOnglet">bon de commande</div>
+                    <div class="sousOnglet" id="bdlClientSousOnglet">bon de livraison</div>
+                    <div class="sousOnglet" id="factureClientSousOnglet">facture</div>
+                    <div class="sousOnglet" id="relanceClientSousOnglet">relance</div>
+                </div>
+                
+                <div class="sousContenu client">
+                    <div class="none" id="devisClientSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouveau devis</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                                    <th class="col2" colspan="1">N° de compte fournisseur</th>
+                                    <th class="col3" colspan="1">Type de société</th>
+                                    <th class="col4" colspan="1">Raison sociale</th>
+                                    <th class="col5" colspan="1">N° de voie</th>
+                                    <th class="col6" colspan="1">Complément de voie</th>
+                                    <th class="col7" colspan="1">Type de voie</th>
+                                    <th class="col8" colspan="1">Nom de la voie</th>
+                                    <th class="col9" colspan="1">Code postal</th>
+                                    <th class="col10" colspan="1">Ville</th>
+                                    <th class="col11" colspan="1">Pays</th>
+                                    <th class="col12" colspan="1">N° Tel</th>
+                                    <th class="col13" colspan="1">Email</th>
+                                    <th class="col14" colspan="1">Site web</th>
+                                    <th class="col15" colspan="1">N° SIRET</th>
+                                    <th class="col16" colspan="1">N° SIREN</th>
+                                    <th class="col17" colspan="1">N° TVA</th>
+                                    <th class="col18" colspan="1">Modif.</th>
+                                    <th class="col19" colspan="1">Edit.</th>
+                                    <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="bdcClientSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouveau bdc</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="bdlClientSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouveau bdl</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="factureClientSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouvelle facture</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                                    <th class="col2" colspan="1">N° de compte fournisseur</th>
+                                    <th class="col3" colspan="1">Type de société</th>
+                                    <th class="col4" colspan="1">Raison sociale</th>
+                                    <th class="col5" colspan="1">N° de voie</th>
+                                    <th class="col6" colspan="1">Complément de voie</th>
+                                    <th class="col7" colspan="1">Type de voie</th>
+                                    <th class="col8" colspan="1">Nom de la voie</th>
+                                    <th class="col9" colspan="1">Code postal</th>
+                                    <th class="col10" colspan="1">Ville</th>
+                                    <th class="col11" colspan="1">Pays</th>
+                                    <th class="col12" colspan="1">N° Tel</th>
+                                    <th class="col13" colspan="1">Email</th>
+                                    <th class="col14" colspan="1">Site web</th>
+                                    <th class="col15" colspan="1">N° SIRET</th>
+                                    <th class="col16" colspan="1">N° SIREN</th>
+                                    <th class="col17" colspan="1">N° TVA</th>
+                                    <th class="col18" colspan="1">Modif.</th>
+                                    <th class="col19" colspan="1">Edit.</th>
+                                    <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="relanceClientSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouvelle relance</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                                    <th class="col2" colspan="1">N° de compte fournisseur</th>
+                                    <th class="col3" colspan="1">Type de société</th>
+                                    <th class="col4" colspan="1">Raison sociale</th>
+                                    <th class="col5" colspan="1">N° de voie</th>
+                                    <th class="col6" colspan="1">Complément de voie</th>
+                                    <th class="col7" colspan="1">Type de voie</th>
+                                    <th class="col8" colspan="1">Nom de la voie</th>
+                                    <th class="col9" colspan="1">Code postal</th>
+                                    <th class="col10" colspan="1">Ville</th>
+                                    <th class="col11" colspan="1">Pays</th>
+                                    <th class="col12" colspan="1">N° Tel</th>
+                                    <th class="col13" colspan="1">Email</th>
+                                    <th class="col14" colspan="1">Site web</th>
+                                    <th class="col15" colspan="1">N° SIRET</th>
+                                    <th class="col16" colspan="1">N° SIREN</th>
+                                    <th class="col17" colspan="1">N° TVA</th>
+                                    <th class="col18" colspan="1">Modif.</th>
+                                    <th class="col19" colspan="1">Edit.</th>
+                                    <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="none fornisseurContenu" id="fornisseurContenu">
+                <div class="buttonDiv">
+                    <div class="buttonLeft">
+                        <button class="buttonNew buttonIntLeft" >nouveau fournisseur</button>
+                        <button class="buttonNew buttonIntLeft">recherche</button>
+                        <button class="buttonNew buttonIntLeft">editer la liste</button>
+                    </div> 
+                    <div class="buttonRight">
+                        <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                    </div>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="none fournisseurDocContenu" id="fournisseurDocContenu">
+                <div class="containerSousOnglet">
+                    <div class="sousOnglet" id="devisFournisseurSousOnglet">devis</div>
+                    <div class="sousOnglet" id="bdcFournisseurSousOnglet">bon de commande</div>
+                    <div class="sousOnglet" id="bdlFournisseurSousOnglet">bon de livraison</div>
+                    <div class="sousOnglet" id="factureFournisseurSousOnglet">facture</div>
+                </div>
+                <div class="sousContenu fournisseur">
+                    <div class="none" id="devisFournisseurSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouveau devis</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                                    <th class="col2" colspan="1">N° de compte fournisseur</th>
+                                    <th class="col3" colspan="1">Type de société</th>
+                                    <th class="col4" colspan="1">Raison sociale</th>
+                                    <th class="col5" colspan="1">N° de voie</th>
+                                    <th class="col6" colspan="1">Complément de voie</th>
+                                    <th class="col7" colspan="1">Type de voie</th>
+                                    <th class="col8" colspan="1">Nom de la voie</th>
+                                    <th class="col9" colspan="1">Code postal</th>
+                                    <th class="col10" colspan="1">Ville</th>
+                                    <th class="col11" colspan="1">Pays</th>
+                                    <th class="col12" colspan="1">N° Tel</th>
+                                    <th class="col13" colspan="1">Email</th>
+                                    <th class="col14" colspan="1">Site web</th>
+                                    <th class="col15" colspan="1">N° SIRET</th>
+                                    <th class="col16" colspan="1">N° SIREN</th>
+                                    <th class="col17" colspan="1">N° TVA</th>
+                                    <th class="col18" colspan="1">Modif.</th>
+                                    <th class="col19" colspan="1">Edit.</th>
+                                    <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="bdcFournisseurSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouveau bdc</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="bdlFournisseurSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouveau bdl</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="none" id="factureFournisseurSousContenu">
+                        <div class="buttonDiv">
+                            <div class="buttonLeft">
+                                <button class="buttonNew buttonIntLeft" >nouvtelle facture</button>
+                                <button class="buttonNew buttonIntLeft">recherche</button>
+                                <button class="buttonNew buttonIntLeft">editer la liste</button>
+                            </div> 
+                            <div class="buttonRight">
+                                <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                            </div>
+                        </div>
+        
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="col1" colspan="1">N° du client</th>
+                                    <th class="col2" colspan="1">N° de compte fournisseur</th>
+                                    <th class="col3" colspan="1">Type de société</th>
+                                    <th class="col4" colspan="1">Raison sociale</th>
+                                    <th class="col5" colspan="1">N° de voie</th>
+                                    <th class="col6" colspan="1">Complément de voie</th>
+                                    <th class="col7" colspan="1">Type de voie</th>
+                                    <th class="col8" colspan="1">Nom de la voie</th>
+                                    <th class="col9" colspan="1">Code postal</th>
+                                    <th class="col10" colspan="1">Ville</th>
+                                    <th class="col11" colspan="1">Pays</th>
+                                    <th class="col12" colspan="1">N° Tel</th>
+                                    <th class="col13" colspan="1">Email</th>
+                                    <th class="col14" colspan="1">Site web</th>
+                                    <th class="col15" colspan="1">N° SIRET</th>
+                                    <th class="col16" colspan="1">N° SIREN</th>
+                                    <th class="col17" colspan="1">N° TVA</th>
+                                    <th class="col18" colspan="1">Modif.</th>
+                                    <th class="col19" colspan="1">Edit.</th>
+                                    <th class="col20" colspan="1">Supp.</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+        
+                                <tr>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td>with two columns</td>
+                                    <td>The table body</td>
+                                    <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                                    <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="none articleContenu" id="articleContenu">
+                <div class="buttonDiv">
+                    <div class="buttonLeft">
+                        <button class="buttonNew buttonIntLeft" >nouvel article</button>
+                        <button class="buttonNew buttonIntLeft">recherche</button>
+                        <button class="buttonNew buttonIntLeft">editer la liste</button>
+                    </div> 
+                    <div class="buttonRight">
+                        <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col1" colspan="1">N° du client</th>
+                            <th class="col2" colspan="1">N° de compte fournisseur</th>
+                            <th class="col3" colspan="1">Type de société</th>
+                            <th class="col4" colspan="1">Raison sociale</th>
+                            <th class="col5" colspan="1">N° de voie</th>
+                            <th class="col6" colspan="1">Complément de voie</th>
+                            <th class="col7" colspan="1">Type de voie</th>
+                            <th class="col8" colspan="1">Nom de la voie</th>
+                            <th class="col9" colspan="1">Code postal</th>
+                            <th class="col10" colspan="1">Ville</th>
+                            <th class="col11" colspan="1">Pays</th>
+                            <th class="col12" colspan="1">N° Tel</th>
+                            <th class="col13" colspan="1">Email</th>
+                            <th class="col14" colspan="1">Site web</th>
+                            <th class="col15" colspan="1">N° SIRET</th>
+                            <th class="col16" colspan="1">N° SIREN</th>
+                            <th class="col17" colspan="1">N° TVA</th>
+                            <th class="col18" colspan="1">Modif.</th>
+                            <th class="col19" colspan="1">Edit.</th>
+                            <th class="col20" colspan="1">Supp.</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td>with two columns</td>
+                            <td>The table body</td>
+                            <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                            <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="none prospectContenu" id="prospectContenu">
+                <div class="buttonDiv">
+                    <div class="buttonLeft">
+                        <button class="buttonNew buttonIntLeft" >nouveau prospect</button>
+                        <button class="buttonNew buttonIntLeft">recherche</button>
+                        <button class="buttonNew buttonIntLeft">editer la liste</button>
+                    </div> 
+                    <div class="buttonRight">
+                        <button class="buttonNew buttonRefresh "><img class="iconRefresh" src="../images/icones/reload-webpage_icon-icons.com_53905.png" alt=""></button>
+                    </div>
+                </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col1" colspan="1">N° du client</th>
+                        <th class="col2" colspan="1">N° de compte fournisseur</th>
+                        <th class="col3" colspan="1">Type de société</th>
+                        <th class="col4" colspan="1">Raison sociale</th>
+                        <th class="col5" colspan="1">N° de voie</th>
+                        <th class="col6" colspan="1">Complément de voie</th>
+                        <th class="col7" colspan="1">Type de voie</th>
+                        <th class="col8" colspan="1">Nom de la voie</th>
+                        <th class="col9" colspan="1">Code postal</th>
+                        <th class="col10" colspan="1">Ville</th>
+                        <th class="col11" colspan="1">Pays</th>
+                        <th class="col12" colspan="1">N° Tel</th>
+                        <th class="col13" colspan="1">Email</th>
+                        <th class="col14" colspan="1">Site web</th>
+                        <th class="col15" colspan="1">N° SIRET</th>
+                        <th class="col16" colspan="1">N° SIREN</th>
+                        <th class="col17" colspan="1">N° TVA</th>
+                        <th class="col18" colspan="1">Modif.</th>
+                        <th class="col19" colspan="1">Edit.</th>
+                        <th class="col20" colspan="1">Supp.</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>00001</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                        <td>The table body</td>
+                        <td><img class="iconEdit" src="../images/icones/353430-checkbox-edit-pen-pencil_107516.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/gui_print_preview_icon_157060.png" alt=""></td>
+                        <td><img class="iconEdit" src="../images/icones/close_remove_delete_icon_148989.png" alt=""></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        FOOTER
+    </footer>
+    
+</body>
+<script src="../js/onglet.js"></script>
+<script src="../js/sousOngletClient.js"></script>
+<script src="../js/sousOngletFournisseur.js"></script>
+<script src="../js/modalClient.js"></script>
+
+
+ 
+
+
+
+</html>
