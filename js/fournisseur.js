@@ -45,6 +45,15 @@ let Fournisseur =
             method: 'GET',
             mode: 'cors',
             cache: 'no-cache',
+            headers: {
+                //'HTTP_AUTHORIZATION' : 'Bearer 5948c3d34354b20bd3c5bfb7709b29ace00bcf5e02896567fc45ae614a6270e7',
+                'Access-Control-Allow-Origin': 'http://localhost/facturationFRONT/php/',
+                'Content-Type': 'application/json',
+                'Access-Control-Request-Credentials': 'true',
+                'Access-Control-Request-Header' : 'Content-type'
+                
+                
+              },
             
             
         };

@@ -27,13 +27,13 @@
            <h2>Le site de facturation des micro-entreprises</h2>
         <!-- </div> -->
     </header>
-    <div class="containerEntete">
+    
         <div class="entreprise">
             <div class="entrepriseHaut">
                 <img src="../images/logo/logo-1746083_1280.png" alt="Logo de l'entreprise utilisatrice">
                 <div>
                     <div class="entrepriseHautDiv nomEntreprise">
-                    Nom de l'entreprise utilisatrice
+                    <SCRIPT LANGUAGE="Javascript">document.write(localStorage.getItem("entreprise"));</SCRIPT>
                     </div>
                     <div class="entrepriseHautDiv">
                     13 rue de Goarem Glaz
@@ -59,15 +59,9 @@
                 </div>
             </div>
             <div class="entrepriseBas">
-                <button class="buttonNew">modifier</button>
-                <button class="buttonNew">editer</button>
-                <button class="buttonNew">parametre</button>
+                <button class="buttonEntreprise">modifier</button>
+                <button class="buttonEntreprise">editer</button>
+                <button class="buttonEntreprise">parametre</button>
             </div>
         </div>
-        <div class="outil">
-            <button class="buttonNew">calculatrice</button>
-            <button class="buttonNew">calcul tva</button>
-            <button class="buttonNew">convertisseur de devise</button>
-        </div>
-
-    </div>
+        

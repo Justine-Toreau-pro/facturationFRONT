@@ -62,17 +62,9 @@ footer{
 
 /* Mise en forme des "classes" */
 
-.containerEntete{
-    display: grid;
-    grid-template-areas: 
-    "a a b";
-    column-gap: 1%;
-    margin-bottom: 3%;
-}
 
 .entreprise{
     background-image: url(../images/fond/texture-3319946_1920.jpg);
-    grid-area: a;
     padding: 1.7% 1% 2% 1%;
     border-radius: 5px;
     border: solid black 1px;

@@ -26,15 +26,17 @@
 
             <div class="identifiant">
                 <label for="">Identifiant (mail)</label>
-                <input type="mail">
+                <input id = "identifiant" type="mail">
             </div>
 
             <div class="motDePasse">
                 <label for="">Mot de passe</label>
-                <input type="password">
+                <input id = "password" type="password">
             </div>
-
+            <button id="connexion" type="submit">CONNEXION</button>
         </form>
     </main>
 </body>
+
+<script src="../js/connexion.js"></script>
 </html>

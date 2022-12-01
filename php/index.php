@@ -1,4 +1,6 @@
 <!-- inclusion du "header" -->
+<?php session_start();?>
+
 <?php include "../php/header.php" ?>
 
     <main>
